@@ -5,10 +5,7 @@
     "engines": {
         "node": ">= 0.10.0"
     },
-    "files": [
-        "dist",
-        "vue"
-    ],
+    "files": [],
     "devDependencies": {
         "@tsconfig/node22": "^22.0.0",
         "@types/node": "^20.12.12",

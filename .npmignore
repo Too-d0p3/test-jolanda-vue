@@ -1,4 +1,6 @@
 /src
+/vue
+/dist
 /node_modules
 /vite.config.ts
 /tsconfig.json
