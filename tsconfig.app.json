@@ -1,0 +1,13 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "vue/**/*", "vue/**/*.vue"],
+  "exclude": ["vue/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./vue/*"]
+    },
+    "experimentalDecorators": true,
+  }
+}

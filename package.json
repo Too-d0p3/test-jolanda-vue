@@ -1,0 +1,51 @@
+{
+    "name": "core",
+    "title": "Jolanda",
+    "version": "0.0.0",
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "files": [
+        "dist"
+    ],
+    "devDependencies": {
+        "@tsconfig/node22": "^22.0.0",
+        "@types/node": "^20.12.12",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "@vitejs/plugin-vue-jsx": "^3.1.0",
+        "@vue/tsconfig": "^0.5.1",
+        "autoprefixer": "^10.4.19",
+        "fast-glob": "^3.3.2",
+        "npm-run-all2": "^6.1.2",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.3",
+        "typescript": "~5.4.5",
+        "vite": "^5.2.11",
+        "vue-tsc": "^2.0.19",
+        "webpack": "^5.91.0",
+        "webpack-cli": "^5.1.4"
+    },
+    "dependencies": {
+        "@handsontable/vue3": "^14.3.0",
+        "axios": "^1.6.8",
+        "class-transformer": "^0.5.1",
+        "flowbite-datepicker": "^1.2.6",
+        "handsontable": "^14.3.0",
+        "hyperformula": "^2.7.0",
+        "lodash": "^4.17.21",
+        "moment": "^2.29",
+        "pinia": "^2.1.7",
+        "reflect-metadata": "^0.2.2",
+        "vue": "^3.4.27",
+        "vue-axios": "^3.5.2",
+        "vuedraggable": "^4.1.0"
+    },
+    "scripts": {
+        "build-webpack": "webpack",
+        "dev": "vite",
+        "build": "run-p type-check \"build-only {@}\" --",
+        "preview": "vite preview",
+        "build-only": "vite build",
+        "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
+    }
+}

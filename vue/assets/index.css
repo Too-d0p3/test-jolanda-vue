@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.datepicker-dropdown{
+    z-index: 10000000;
+}
